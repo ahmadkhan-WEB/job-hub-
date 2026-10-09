@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HireHub — Job Board Astro Template</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <!-- ===== Header / identity ===== -->
+  <div class="top">
+    <span class="eyebrow">Job Board Template</span>
+    <h1>HireHub</h1>
+    <div class="meta-row">
+      <span>by <strong>Aigars Silkalns</strong></span>
+      <span class="tag-pill">Astro</span>
+      <span class="tag-pill">Business</span>
+      <span class="tag-pill">Tailwind CSS</span>
+    </div>
+  </div>
+
+  <!-- ===== Live preview mockup ===== -->
+  <div class="preview-shell">
+    <div class="browser-bar">
+      <div class="dots"><span></span><span></span><span></span></div>
+      <div class="addr">hirehub-demo.colorlib.com</div>
+    </div>
+    <div class="hh-hero">
+      <div class="hh-nav">
+        <span class="brand">◆ HireHub</span>
+        <span class="links"><span>Jobs</span><span>Companies</span><span>About</span><span>Pricing</span><span>Blog</span><span>Contact</span></span>
+        <span class="cta">Post a Job</span>
+      </div>
+      <span class="hh-badge">Astro 6 · Tailwind 4</span>
+      <h2>Find Your Dream Job</h2>
+      <p>Search thousands of opportunities from top companies worldwide. Your next career move starts here.</p>
+      <div class="hh-search">
+        <input placeholder="Job title, keyword" disabled>
+        <input placeholder="City, state, or remote" disabled>
+        <button>Search Jobs</button>
+      </div>
+      <div class="hh-tags">
+        <span>React Developer</span><span>Product Manager</span><span>Data Scientist</span><span>UX Designer</span><span>DevOps Engineer</span>
+      </div>
+    </div>
+    <div class="hh-stats">
+      <div><div class="num">2,500+</div><div class="lbl">Active Jobs</div></div>
+      <div><div class="num">500+</div><div class="lbl">Companies</div></div>
+      <div><div class="num">50K+</div><div class="lbl">Successful Hires</div></div>
+      <div><div class="num">4.8</div><div class="lbl">User Rating</div></div>
+    </div>
+    <div class="hh-jobs">
+      <h3>Latest Opportunities</h3>
+      <p class="sub">Hand-picked positions from top companies looking for exceptional talent.</p>
+      <div class="job-cards">
+        <div class="job-card">
+          <div class="job-icon"></div>
+          <div><h4>Senior React Developer</h4><div class="sub2">TechFlow Inc. · San Francisco, CA · $140K–$180K</div></div>
+        </div>
+        <div class="job-card">
+          <div class="job-icon"></div>
+          <div><h4>Lead UX Designer</h4><div class="sub2">DesignCraft Studio · Remote · $120K–$150K</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CTA buttons ===== -->
+  <div class="cta-row">
+    <button class="btn btn-outline">↗ Live Preview</button>
+    <button class="btn btn-solid">🛒 Buy Now</button>
+  </div>
+
+  <!-- ===== Details + Description ===== -->
+  <div class="content-grid">
+    <div>
+      <h2 class="side-title">Template Details</h2>
+      <dl class="detail-list">
+        <div><dt>Author</dt><dd>Colorlib</dd></div>
+        <div><dt>Released</dt><dd>April 2026</dd></div>
+        <div><dt>License</dt><dd>CC BY 3.0</dd></div>
+        <div><dt>Credits</dt><dd>Images from Unsplash</dd></div>
+      </dl>
+    </div>
+
+    <div class="desc">
+      <h2>Description</h2>
+      <p>Job seekers decide within seconds whether a job board is worth their time. HireHub hooks them instantly with a full search bar in the hero — keyword, location, and category filters — paired with popular search tags and an animated job counter showing thousands of available positions.</p>
+      <p>Featured job cards, browsable category tiles with posting counts, and company profiles create a marketplace feel that attracts both job seekers and employers. All job listings, company profiles, and categories are managed through <code class="mono">YAML</code> files and <code class="mono">Markdown</code> — post new positions or update company pages without any coding.</p>
+      <p>Built with <strong>Astro 6</strong> and <strong>Tailwind CSS 4.x</strong>, HireHub delivers exceptional performance with lightning-fast page loads and a modern development experience. All content lives in simple YAML and Markdown files — edit text, reorder sections, or remove entire blocks without touching any code. The template includes a built-in blog with search and filtering, dark mode with persistent toggle, View Transitions for SPA-like navigation, and a fully responsive design that looks stunning on every device.</p>
+
+      <h3>Business Features</h3>
+      <ul class="feat-list">
+        <li>Full search bar with keyword, location, and category filters</li>
+        <li>Featured job cards with salary and company details</li>
+        <li>Category browser with icons and job counts</li>
+        <li>Company profile cards with open positions</li>
+        <li>Job alert email signup section</li>
+        <li>Salary range slider and job type filters</li>
+      </ul>
+
+      <h3>Technical Highlights</h3>
+      <ul class="feat-list tech-list">
+        <li>Lightning-fast performance with Astro static generation</li>
+        <li>Utility-first styling with Tailwind CSS 4.x</li>
+        <li>YAML + Markdown content system — edit everything without code</li>
+        <li>Built-in blog with search, categories, and Markdown posts</li>
+        <li>Dark mode with persistent toggle and flash-free loading</li>
+        <li>View Transitions for SPA-like page navigation</li>
+        <li>Fully responsive mobile-first design</li>
+        <li>SEO optimized with Open Graph, structured data, and sitemap</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== Pricing ===== -->
+  <div class="pricing-section">
+    <h2>Pricing HireHub</h2>
+    <div class="price-grid">
+      <div class="price-card">
+        <div class="tier">Single</div>
+        <div class="amount"><sup>$</sup>29</div>
+        <div class="per">one template</div>
+        <ul class="price-feats">
+          <li>Premium support <span class="check">✓</span></li>
+          <li>Template updates <span class="check">✓</span></li>
+          <li>Support & updates <span class="mono" style="font-size:11.5px;color:var(--muted)">1 year</span></li>
+          <li>Access all templates <span class="cross">✕</span></li>
+        </ul>
+        <button class="price-btn">Buy Now</button>
+      </div>
+
+      <div class="price-card pop">
+        <span class="popular-flag">Most Popular</span>
+        <div class="tier">Membership</div>
+        <div class="amount"><sup>$</sup>129</div>
+        <div class="per">billed yearly</div>
+        <ul class="price-feats">
+          <li>Premium support <span class="check">✓</span></li>
+          <li>Template updates <span class="check">✓</span></li>
+          <li>Support & updates <span class="mono" style="font-size:11.5px;color:var(--muted)">1 year</span></li>
+          <li>Access all templates <span class="mono" style="font-size:11.5px;color:var(--muted)">1 year</span></li>
+        </ul>
+        <button class="price-btn">Buy Now</button>
+      </div>
+
+      <div class="price-card">
+        <div class="tier">Lifetime</div>
+        <div class="amount"><sup>$</sup>349</div>
+        <div class="per">one-time payment</div>
+        <ul class="price-feats">
+          <li>Premium support <span class="check">✓</span></li>
+          <li>Template updates <span class="check">✓</span></li>
+          <li>Support & updates <span class="mono" style="font-size:11.5px;color:var(--muted)">for life</span></li>
+          <li>Access all templates <span class="mono" style="font-size:11.5px;color:var(--muted)">for life</span></li>
+        </ul>
+        <button class="price-btn">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Share ===== -->
+  <div class="share-section">
+    <h3>Share This</h3>
+    <div class="share-btns">
+      <a class="fb" href="#">Facebook</a>
+      <a class="tw" href="#">Twitter / X</a>
+      <a class="pin" href="#">Pinterest</a>
+      <a class="li" href="#">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- ===== Similar templates ===== -->
+  <div class="similar-section">
+    <h3>Similar Templates</h3>
+    <div class="sim-grid">
+      <div class="sim-card">
+        <div class="sim-thumb" style="background-image:url('p1.png');">Atelier — Interior Design</div>
+        <div class="sim-body"><div class="n">Atelier</div><div class="t">Astro, Business</div></div>
+      </div>
+      <div class="sim-card">
+        <div class="sim-thumb" style="background-image:url('p2.png');">SolarFlow — Home Energy</div>
+        <div class="sim-body"><div class="n">SolarFlow</div><div class="t">Astro, SaaS</div></div>
+      </div>
+      <div class="sim-card">
+        <div class="sim-thumb" style="background-image:url('p3.png');">Cobbler — Craft & Style</div>
+        <div class="sim-body"><div class="n">Cobbler</div><div class="t">Astro, Business</div></div>
+      </div>
+      <div class="sim-card">
+        <div class="sim-thumb" style="background-image:url('p4.png');">CleanCo — Cleaning Services</div>
+        <div class="sim-body"><div class="n">CleanCo</div><div class="t">Astro, Business</div></div>
+      </div>
+      <div class="sim-card">
+        <div class="sim-thumb" style="background-image:url('p5.png');">ShipAPI — Developer Docs</div>
+        <div class="sim-body"><div class="n">ShipAPI</div><div class="t">Astro, SaaS</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Banner ===== -->
+<div class="banner">
+  <div class="wrap">
+    <p>We change everything WordPress. One WordPress theme at a time.</p>
+    <button class="btn">Find out more! ↗</button>
+  </div>
+</div>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Useful</h4>
+        <ul>
+          <li>About Colorlib</li>
+          <li>Advertise</li>
+          <li>Squarespace Templates</li>
+          <li>WordPress Themes</li>
+          <li>Website Templates</li>
+          <li>Bootstrap Templates</li>
+          <li>Support Forum</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+      <div style="text-align:center;">
+        <div class="brand-mark">colorlib.</div>
+        <p class="foot-desc">We change everything WordPress.<br>One WP theme at a time.</p>
+      </div>
+      <div></div>
+    </div>
+    <div class="foot-bottom">© 2026 Colorlib. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
